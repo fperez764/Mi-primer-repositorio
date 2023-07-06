@@ -1,0 +1,35 @@
+//!Operadores de asignacion
+//(=)
+let firstName='Freddy'
+let pais = 'Bolivia'
+console.log(firstName,pais)
+//!Operadores de asignacion complejas
+//*Operador 
+// =    x = y    x = y
+// +=   x+ = y   x = x+y
+// -=   x- = y   x = x-y
+// *=   x* = y   x = x*y
+// /=   x/ = y   x= x/y
+// %/   x% = y   x = x%y
+// **=  x** = y  x= x**y
+
+// Operadores aritemticos
+// +   suma :  a+b
+// +   resta :  a-b
+// +   multiplicacion :  a*b
+// +   division :  a/b
+// +   modulo :  a%b
+// +   exponencial :  a**b
+
+// calculo de area de un circulo
+// PI,radio
+const PI = 3.14
+let radio = 100
+//formula para calcular
+
+const areaCirculo = PI*radio*radio
+//const areaCirculo = PI*radio*radio
+const areaCirculo1 = PI*radio**2
+console.log(areaCirculo,areaCirculo1)
+
+
